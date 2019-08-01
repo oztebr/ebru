@@ -1,0 +1,19 @@
+﻿<div class="content-shopby">
+    <div class="price_filter s-filter clear">
+        <form action="@Url.Action("Products","Shop")" method="GET">
+            <div id="slider-range"></div>
+            <div class="slider__range--output">
+                <div class="price__output--wrap">
+                    <div class="price--output">
+                        <span>Fiyat :</span><input type="text" id="amount" readonly>
+                        <input type="hidden" id="min" name="min" />
+                        <input type="hidden" id="max" name="max" />
+                    </div>
+                    <div class="price--filter">
+                      <input type="submit" value="Filtrele" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
